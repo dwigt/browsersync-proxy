@@ -1,0 +1,222 @@
+body {
+  font-family: "Circular-Pro-Bold", "Noto Sans JP", Arial, sans-serif;
+}
+.flexybox .booking-title {
+  display: block !important;
+  background-color: #ffcf00 !important;
+  border-bottom: 20px solid #d01012 !important;
+  padding: 20px 0;
+  text-align: center;
+  text-shadow: none;
+}
+.flexybox .booking-caption {
+  padding: 0 8px 8px 8px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #000;
+}
+.flexybox .booking-box.multiline {
+  padding: 10px !important;
+  background-color: #003a71 !important;
+}
+.flexybox .booking-box.multiline.shiny {
+  background-color: #003a71 !important;
+}
+.flexybox .booking-box.multiline.shiny .highlight {
+  color: #fff !important;
+}
+.flexybox .booking-box {
+  background-color: #fff !important;
+  border-radius: 6px !important;
+}
+
+.flexybox .booking-inner,
+.flexybox .booking-content {
+  // SLETTET  background-color: #30a0df !important;
+}
+.booking-icon.icon-address {
+  display: none;
+}
+.booking-icon.icon-address + .fill {
+  display: none;
+}
+.booking-icon.icon-company {
+  display: none;
+}
+.booking-icon.icon-company + .fill {
+  display: none;
+}
+
+#DateSection,
+#TimeSection,
+#PeopleSection {
+  background-color: #fff;
+  margin: 0 16px;
+  border-radius: 6px !important;
+}
+.flexybox .booking-main {
+  background-color: #30a0df;
+  border-radius: 0px;
+}
+.flexybox .booking-language-current.booking-box {
+  color: #000;
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  width: 150px;
+  height: 35px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.flexybox .booking-language-selector a {
+  color: #000 !important;
+}
+.flexybox .booking-language-selector a:first-letter {
+  text-transform: uppercase;
+}
+.flexybox .booking-select select {
+  height: auto !important;
+}
+
+input[type="checkbox"] {
+  background-color-color: #acacac;
+}
+.flexybox .flow > .fill {
+  color: #fff !important;
+}
+#TimeSection {
+  margin-top: 16px;
+}
+#Calendar,
+#AvailableFrame,
+#UnavailableFrame {
+  padding: 16px 0;
+}
+#PeopleSection {
+  padding: 16px;
+}
+
+#AvailableFrame .booking-times {
+  background-color: #30a0df !important;
+  border-radius: 6px;
+}
+.flexybox .booking-times .available-time {
+  margin: 8px 0px 8px 8px !important;
+  color: #000 !important;
+}
+.flexybox .booking-suggestion {
+  color: #666 !important;
+}
+.flexybox input,
+.flexybox textarea {
+  color: #000;
+}
+#PeopleSection .booking-box {
+  background-color: #009d2e !important;
+  padding: 10px !important;
+  color: #fff !important;
+}
+#PeopleSection .icon-people {
+  display: none;
+}
+.help-line {
+  display: none !important;
+}
+.postal {
+  display: none !important;
+}
+.flow postal {
+  display: none !important;
+}
+.postal {
+  display: none !important;
+}
+.flow postal {
+  display: none !important;
+}
+.select#SelectedCountry {
+  display: none !important;
+}
+.flow hs {
+  display: none !important;
+}
+.flow hs {
+  display: none !important;
+}
+.flow booking-box {
+  display: none !important;
+}
+#flow .booking-box {
+  display: none !important;
+}
+
+.flexybox .booking-content {
+  padding: 10px 0 !important;
+}
+.flexybox .booking-navigation {
+  background-color: #003a71 !important;
+  border-color: #003a71 !important;
+}
+.flexybox .booking-navigation:after {
+  border-right: 0 solid #003a71 !important;
+  border-left: 0 solid #003a71 !important;
+}
+.flexybox .booking-navigation:before {
+  border-right: 0 solid #003a71;
+  border-left: 0 solid #003a71;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.flexybox html,
+html.flexybox,
+.flexybox body,
+body.flexybox {
+  background-color: #424242;
+}
+.flexybox {
+  font-size: 16px;
+  .booking-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    padding: 16px;
+  }
+  .booking-inner {
+    padding: 0px;
+  }
+  .booking-main {
+    height: 100%;
+    border-radius: 8px;
+  }
+  .booking-title {
+    font-size: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .booking-box.multiline {
+    padding: 28px 24px 24px 24px !important;
+    & > p {
+      margin-bottom: 8px;
+    }
+  }
+  #PeopleSection .booking-box {
+    padding: 24px !important;
+  }
+  .booking-box.available-time {
+    display: inline-block;
+    float: left;
+    width: 69px;
+  }
+  .booking-message {
+    top: 5px;
+  }
+}
